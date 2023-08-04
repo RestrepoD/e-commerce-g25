@@ -1,0 +1,52 @@
+.navbar_link {
+  text-decoration: none;
+  color: unset;
+}
+.navbar_link h1 {
+  margin: 0;
+  padding: 0;
+}
+.header_cont {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 2rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(20, 72, 150);
+}
+.navigation {
+  display: flex;
+}
+.header_navlist {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 3rem;
+  list-style: none;
+}
+.nav_button_link {
+  text-decoration: none;
+  color: unset;
+}
+.nav_button_link i:hover {
+  transition: 0.5s;
+  color: rgb(0, 174, 255);
+  scale: 110%;
+}
+.header_btn {
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+}
+.header_btn i:hover {
+  transition: 0.5s;
+  color: rgb(0, 174, 255);
+  scale: 110%;
+}

@@ -1,0 +1,31 @@
+.login_form {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.login_input_conts {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+.login_input_box {
+  width: 70%;
+  flex-grow: 1;
+}
+.login_btn {
+  width: 50%;
+  height: 3rem;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(20, 72, 150);
+  transition: 0.5s;
+}
+.login_btn:hover {
+  scale: 110%;
+  background-color: rgb(69, 187, 255);
+}

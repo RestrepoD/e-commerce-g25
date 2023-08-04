@@ -1,0 +1,19 @@
+.product_list__cont {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.product_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.product_list__item {
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  width: 100%;
+  height: 500px;
+}

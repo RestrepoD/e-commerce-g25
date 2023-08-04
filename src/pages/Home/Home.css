@@ -1,0 +1,14 @@
+.home_cont {
+  display: grid;
+  grid-template-columns: minmax(20%, 300px) 1fr;
+}
+.categories_cont {
+  margin: 1rem;
+}
+.searchbar_cont {
+  margin: 1rem;
+}
+.searchbar {
+  width: 300px;
+  height: 25px;
+}

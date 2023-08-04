@@ -1,0 +1,4 @@
+Email: testemail001@gmail.com
+Name: Test Subject
+Password: testaccount
+Phone: 9876543210

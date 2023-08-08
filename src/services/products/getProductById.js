@@ -2,7 +2,7 @@ import { axiosInstance } from "../../api/axiosInstance";
 
 export async function getProductById(productId) {
   try {
-    const res = await axiosInstance.get(`products/${productId}`);
+    const res = await axiosInstance.get(`/products/${productId}`);
 
     return res.data;
   } catch (error) {

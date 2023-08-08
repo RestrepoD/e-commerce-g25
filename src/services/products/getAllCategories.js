@@ -2,7 +2,7 @@ import { axiosInstance } from "../../api/axiosInstance";
 
 export async function getAllCategories() {
   try {
-    const res = await axiosInstance.get("categories");
+    const res = await axiosInstance.get("/categories");
 
     return res.data;
   } catch (error) {

@@ -26,13 +26,13 @@ const ProductCard = ({ product }) => {
         <header className="product_card__h">
           <div className="product_card__images_cont">
             <img
-              src={product.images[0].url}
-              alt="1"
+              src={product.images[0]?.url}
+              alt={product.title + " image 1"}
               className="product_card__img product_card__shown_img"
             />
             <img
-              src={product.images[1].url}
-              alt="2"
+              src={product.images[1]?.url}
+              alt={product.title + " image 2"}
               className="product_card__img product_card__hidden_img"
             />
           </div>

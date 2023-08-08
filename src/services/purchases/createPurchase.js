@@ -2,7 +2,7 @@ import { axiosInstance } from "../../api/axiosInstance";
 
 export async function createPurchase(token) {
   try {
-    await axiosInstance.post("purchases", undefined, {
+    await axiosInstance.post("/purchases", undefined, {
       headers: { Authorization: `Bearer ${token}` },
     });
   } catch (error) {

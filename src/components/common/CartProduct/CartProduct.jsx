@@ -37,7 +37,7 @@ const CartProduct = ({ cartProduct }) => {
     <article className="cart_p_cont">
       <div className="cart_p_img">
         <img
-          src={cartProduct.product.images[0].url}
+          src={cartProduct.product.images[0]?.url}
           alt={cartProduct.product.title}
         />
       </div>
@@ -59,7 +59,7 @@ const CartProduct = ({ cartProduct }) => {
             </button>
           </div>
           <div className="cart_p_price">
-            <h5>Total</h5>
+            <h5>Total: </h5>
             <p>{(initialQuantity * price).toFixed(2)}</p>
           </div>
         </div>

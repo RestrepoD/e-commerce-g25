@@ -1,0 +1,19 @@
+.main__cont {
+  max-width: 100%;
+}
+.p_details_cont {
+  max-width: 100%;
+}
+.p_img {
+  max-width: 80%;
+}
+.p_info_cont {
+  margin: 1rem;
+  padding: 2rem;
+  max-width: 65%;
+}
+.p_buy_details {
+  max-width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
